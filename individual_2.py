@@ -103,7 +103,8 @@ if __name__ == '__main__':
 
             # Прочитать данные из файла JSON.
             with open(parts[1], 'r') as f:
-                workers = json.load(f)
+                students = json.load(f)
+                print(students)
 
         elif command.startswith('save '):
             # Разбить команду на части для выделения имени файла.
