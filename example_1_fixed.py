@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 if __name__ == '__main__':
-    with open('text.txt', 'r') as f:
+    with open('text_1.txt', 'r') as f:
         text = f.read()
 
     # Заменить символы конца предложения.
